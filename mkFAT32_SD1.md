@@ -1,5 +1,7 @@
 # RG35xx StockOSのSD1側にFAT32パーティションを作成する(RG35xx Create a FAT32 partition on the SD1 side of StockOS)
 
+## 注意！ 32GB以上のSDカードを利用してください。
+
 ## 使い方
 1. リリースページから「mkFAT32_SD1.sh」ファイルをダウンロードする
 2. StckOSのSDカード内の「Roms/APPS」ディレクトリに「mkFAT32_SD1.sh」ファイルをコピーする
@@ -21,6 +23,7 @@
 
 ---
 
+## Note! Please use an SD card of 32GB or more.
 ## How to use
 1. Download the "mkFAT32_SD1.sh" file from the release page
 2. Copy the "mkFAT32_SD1.sh" file to the "Roms/APPS" directory in the StckOS SD card.
