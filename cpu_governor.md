@@ -10,3 +10,5 @@ StockOSのバージョンによっては次のような手順になります
 
 「App Center」→「APPS」→「cpu_governor」を実行します
 ```
+
+以上
