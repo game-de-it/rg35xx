@@ -1,9 +1,14 @@
 # RG35xxSPのstockOSでpyxelをビルドする手順
 
+RG35xxH700用にビルドされたpython3.8.19のsite-packagesに、pyxelを内包する手順を記します。  
+pyxelのビルドのみをしたい場合は「pyxelのビルドを実行」までの流れを実施してもらえればOKです。
+
+## はじめに
+
 ## 前提条件
 - wifi接続が完了していること
 - ssh接続が可能になっていること
-- 下記のスクリプトをRoms/APPSに配置してAppCenterなどから実行しておく(ユーザ名はroot パスワードはroot)
+  - 下記のスクリプトをRoms/APPSに配置してAppCenterなどから実行しておく(ユーザ名はroot パスワードはroot)
 ```
 #!/bin/sh
 systemctl restart ssh
@@ -17,10 +22,10 @@ export LANG=C
 
 ## パッケージのインストール
 ```
-apt install -y zip curl libclang-dev cmake build-essential libbz2-dev libdb-dev libreadline-dev libffi-dev libgdbm-dev liblzma-dev libncursesw5-dev libsqlite3-dev libssl-dev zlib1g-dev uuid-dev tk-dev
+apt install -y wget zip curl libclang-dev make cmake build-essential libbz2-dev libdb-dev libreadline-dev libffi-dev libgdbm-dev liblzma-dev libncursesw5-dev libsqlite3-dev libssl-dev zlib1g-dev uuid-dev tk-dev
 ```
 
-## python3.8.19の配置
+## RG35xxH700用にビルドされたpython3.8.19の配置
 ```
 cd /tmp
 wget https://github.com/game-de-it/rg35xx/releases/download/python3.8.19_pyxel2.0.11_StockOS/python3.8.19_RG35xxH700.zip
@@ -65,7 +70,7 @@ vi rust/pyxel-platform/build.rs
             include_flags.push("-I/usr/lib/llvm-6.0/lib/clang/6.0.0/include".to_string());
 ```
 
-## ビルドを実行
+## pyxelのビルドを実行
 ```
 make clean build
 cd dist
