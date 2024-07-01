@@ -1,12 +1,12 @@
 # RG35xxSPのstockOSでpyxelをビルドする手順
 
-RG35xxH700用にビルドされたpython3.8.19のsite-packagesに、pyxelを内包する手順を記します。  
-pyxelのビルドのみをしたい場合は「pyxelのビルドを実行」までの流れを実施してもらえればOKです。
-
 ## はじめに
+pyxelをビルドしてRG35xxH700用にビルドされたpython3.8.19のsite-packagesに内包させるまでの手順を記しています。  
+pyxelのビルドのみをしたい場合は下記手順の項目「pyxelのビルドを実行」までの流れを実施してもらえればOKです。
 
 ## 前提条件
-- RG35xxSPのstockOS 1.0.4を利用します
+- RG35xxSPのstockOS 1.0.4を利用していること
+  - 他の機種のstockOS、他のバージョンでの動作確認はしていません
 - wifi接続が完了していること
 - ssh接続が可能になっていること
   - SSH接続を有効にするために下記のスクリプトをRoms/APPSに配置してAppCenterなどから実行しておく(ユーザ名はroot パスワードはrootでアクセス可能)
