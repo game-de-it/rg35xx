@@ -6,9 +6,10 @@ pyxelのビルドのみをしたい場合は「pyxelのビルドを実行」ま�
 ## はじめに
 
 ## 前提条件
+- RG35xxSPのstockOS 1.0.4を利用します
 - wifi接続が完了していること
 - ssh接続が可能になっていること
-  - 下記のスクリプトをRoms/APPSに配置してAppCenterなどから実行しておく(ユーザ名はroot パスワードはroot)
+  - SSH接続を有効にするために下記のスクリプトをRoms/APPSに配置してAppCenterなどから実行しておく(ユーザ名はroot パスワードはrootでアクセス可能)
 ```
 #!/bin/sh
 systemctl restart ssh
