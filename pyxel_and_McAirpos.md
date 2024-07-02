@@ -14,6 +14,10 @@ https://github.com/Vegz78/McAirpos
 https://arcade.makecode.com/  
 
 ## How to use pyxel
+| ROM Directory (Roms/pyxel folder on SD2)| 
+|:---------------------:|
+| FULL PATH : /mnt/sdcard/Roms/pyxel |
+
 Double-click "pyxel.sh" on the desktop and click "Execute in Terminal".  
 Select the ".pyxapp" or "main.py" file you want to run from the Files pane.  
 - How to use
@@ -23,6 +27,10 @@ Select the ".pyxapp" or "main.py" file you want to run from the Files pane.
   - To move to a different directory, select the directory you want to move to and press the "Start button" twice.
 
 ## How to use McAirpos
+| ROM Directory (Roms/makecode folder on SD2)| 
+|:---------------------:|
+| FULL PATH : /mnt/sdcard/Roms/makecode |
+
 Double-click "McAirpos.sh" on the desktop and click "Execute in Terminal".  
 Select the ".elf" file you want to run from the Files pane.  
 - How to use
@@ -49,6 +57,10 @@ https://github.com/Vegz78/McAirpos
 https://arcade.makecode.com/
 
 ## pyxelの使い方
+| ROM Directory (Roms/pyxel folder on SD2)| 
+|:---------------------:|
+| FULL PATH : /mnt/sdcard/Roms/pyxel |
+
 デスクトップにある「pyxel.sh」をダブルクリックして「Execute in Terminal」をクリックします。  
 Filesペインから実行したい「.pyxapp」または「main.py」ファイルを選択します。  
 - 操作方法
@@ -58,6 +70,10 @@ Filesペインから実行したい「.pyxapp」または「main.py」ファイ�
   - ディレクトリを移動する場合は移動したいディレクトリにカーソルを選択させておいてから「スタートボタン」を2回押します
  
 ## McAirposの使い方
+| ROM Directory (Roms/makecode folder on SD2)| 
+|:---------------------:|
+| FULL PATH : /mnt/sdcard/Roms/makecode |
+
 デスクトップにある「McAirpos.sh」をダブルクリックして「Execute in Terminal」をクリックします。  
 Filesペインから実行したい「.elf」ファイルを選択します。  
 - 操作方法
