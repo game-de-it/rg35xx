@@ -6,4 +6,4 @@ rg35xx
 3. [RG35xx StockOS(H700系)Batocera Linuxで利用可能なpython3.8.19＋pyxel2.0.11のセットファイル](https://github.com/game-de-it/rg35xx/releases/tag/python3.8.19_pyxel2.0.11)
 4. [RG35xx StockOS(H700系)でフロントエンドをRetroarchに変更する](https://github.com/game-de-it/rg35xx/releases/tag/RetroArchFrontEnd_v5)
 5. [RG35xx StockOS(H700系)StockOSで利用可能なpython3.8.19＋pyxel2.0.11のセットファイル](https://github.com/game-de-it/rg35xx/releases/tag/python3.8.19_pyxel2.0.11_StockOS)
-6. [RG35xx StockOS(H700系)デスクトップ機能を備えた「DesktopOS」](https://github.com/game-de-it/rg35xx/releases/tag/RG35xx_H700_DesktopOS_0.1)
+6. [RG35xx StockOS(H700系)デスクトップ機能を備えた「DesktopOS」](https://github.com/game-de-it/rg35xx/releases/tag/RG35xx_H700_DesktopOS_0.2)
