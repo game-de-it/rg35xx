@@ -7,4 +7,4 @@ rg35xx
 4. [RG35xx StockOS(H700系)でフロントエンドをRetroarchに変更する](https://github.com/game-de-it/rg35xx/releases/tag/RetroArchFrontEnd_v5)
 5. [RG35xx StockOS(H700系)StockOSで利用可能なpython3.8.19＋pyxel2.0.11のセットファイル](https://github.com/game-de-it/rg35xx/releases/tag/python3.8.19_pyxel2.0.11_StockOS)
 6. [RG35xx StockOS(H700系)デスクトップ機能を備えた「DesktopOS」](https://github.com/game-de-it/rg35xx/releases/tag/RG35xx_H700_DesktopOS_0.2)
-7. [RG35xx StockOS(H700系)低レベルの機械学習関数のコレクション「ARM Compute Library」]()
+7. [RG35xx StockOS(H700系)低レベルの機械学習関数のコレクション「ARM Compute Library」](https://github.com/game-de-it/rg35xx/releases/tag/RG35xxH700_ARM_Compute_Library_18.11)
